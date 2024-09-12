@@ -32,6 +32,11 @@ Table of Contents:
 
 /*///////////// 3.1 Header /////////////*/
 
+header {
+    text-align: center;
+    width: 1000px;
+    margin: auto auto;?????
+}
 
 
 /*///////////// 3.2 Testimonial /////////////*/
