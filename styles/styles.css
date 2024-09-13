@@ -32,14 +32,15 @@ Table of Contents:
 
 body {
     font-family: Poppins, sans-serif;
-    margin: -20px auto  auto auto;
+    margin: -20px auto auto auto;
     width: 100%;
 
 }
+
 .header-container {
     background-image: url('/assets/images/mountains.jpg');
     background-size: cover;
-    max-width: 10000px;
+    max-width: 1000px;
     text-align: center;
     background-position: top;
     margin: auto;
@@ -52,26 +53,30 @@ body {
 }
 
 
-
-    /*background-image: url('/assets/images/mountains.jpg'); /* Vervang dit door de URL van je afbeelding */
-    /*  background-size: cover;   /* Zorgt ervoor dat de afbeelding het hele scherm vult */
-    /*background-position: top; /* Centreert de afbeelding */
-    /*background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
-    /* height: 80vh; /* Zorgt ervoor dat de body ten minste de volledige hoogte van het venster beslaat */
-    /* margin: 0;
-    /* padding: 200px 0 200px 0
-
+/*background-image: url('/assets/images/mountains.jpg'); /* Vervang dit door de URL van je afbeelding */
+/*  background-size: cover;   /* Zorgt ervoor dat de afbeelding het hele scherm vult */
+/*background-position: top; /* Centreert de afbeelding */
+/*background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
+/* height: 80vh; /* Zorgt ervoor dat de body ten minste de volledige hoogte van het venster beslaat */
+/* margin: 0;
+/* padding: 200px 0 200px 0
 
 
- /*/
-    /* 3. Areas
- ////////////////////////*/
+
+/*/
+/* 3. Areas
+////////////////////////*/
 
 
 /*//////////////* 3.1 Header /////////////*/
 h1 {
     text-align: center;
     font-size: 90px;
+}
+
+h2 {
+    font-size: 20px;
+    padding-bottom: 40px;
 }
 
 header {
@@ -84,6 +89,7 @@ header {
 
 
 }
+
 .form-example {
     border-width: 1px;
     border-color: black;
@@ -94,6 +100,12 @@ header {
 .small {
     font-size: 10px;
 }
+
+.small1 {
+    font-size: 10px;
+    text-align: left;
+}
+
 .submit {
     margin-left: -10px;
     margin-right: -10px;
@@ -111,8 +123,9 @@ header {
     color: white;
 
 }
+
 .domain {
-border: 1.8px solid black;
+    border: 1.8px solid black;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 20px;
@@ -126,12 +139,36 @@ border: 1.8px solid black;
 
 }
 
-main    {
-    width: 1000px;
+main {
     text-align: center;
-  margin: auto 230px auto 230px;
+    width: 1000px;
+    margin: 0 auto;
+
 }
 
+.Were-there-for-you {
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.picturecallcenter {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 10px;
+    /*padding-top: 40px;*/
+}
+
+a {
+    color: #899CA0;
+    text-decoration: underline;
+
+}
+a:hover {
+   text-decoration: none;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
