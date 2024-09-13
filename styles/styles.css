@@ -36,30 +36,15 @@ body {
     width: 100%;
 
 }
-
-.header-container {
-    background-image: url('/assets/images/mountains.jpg');
-    background-size: cover;
-    max-width: 1000px;
-    text-align: center;
-    background-position: top;
-    margin: auto;
-    padding: 100px 100px 100px 100px;
-    height: 500px;
-    background-repeat: no-repeat;
-    /*width: 125%;*/
-
-
+.small {
+    font-size: 10px;
 }
 
+.small1 {
+    font-size: 10px;
+    text-align: left;
+}
 
-/*background-image: url('/assets/images/mountains.jpg'); /* Vervang dit door de URL van je afbeelding */
-/*  background-size: cover;   /* Zorgt ervoor dat de afbeelding het hele scherm vult */
-/*background-position: top; /* Centreert de afbeelding */
-/*background-repeat: no-repeat; /* Voorkomt dat de afbeelding herhaald wordt */
-/* height: 80vh; /* Zorgt ervoor dat de body ten minste de volledige hoogte van het venster beslaat */
-/* margin: 0;
-/* padding: 200px 0 200px 0
 
 
 
@@ -77,8 +62,20 @@ h1 {
 h2 {
     font-size: 20px;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
-
+.header-container {
+    background-image: url('/assets/images/mountains.jpg');
+    background-size: cover;
+    max-width: 1000px;
+    text-align: center;
+    background-position: top;
+    margin: auto;
+    padding: 100px 100px 100px 100px;
+    height: 500px;
+    background-repeat: no-repeat;
+    /*width: 125%;*/
+}
 header {
 
     text-align: center;
@@ -97,14 +94,7 @@ header {
 }
 
 
-.small {
-    font-size: 10px;
-}
 
-.small1 {
-    font-size: 10px;
-    text-align: left;
-}
 
 .submit {
     margin-left: -10px;
@@ -146,13 +136,87 @@ main {
 
 }
 
-.Were-there-for-you {
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+a {
+    color: #899CA0;
+    text-decoration: underline;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.Jane-doe {
+    font-size: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left;
+    width: 800px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.17);
+
+    margin: 0 auto 50px auto;
+    padding: 20px 10px 10px 80px;
+    height: 150px;
+}
+
+.Jane-doe-picture {
+    border-radius: 50%;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+}
+
+.John-smith-picture {
+    border-radius: 50%;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+
+}
+
+.picture-jane {
+    width: 44px;
+    height: 44px;
+
+}
+
+.picture-john {
+    width: 44px;
+    height: 44px;
+}
+
+.John-smith {
+    font-size: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left;
+    width: 800px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.17);
+    margin: 0 auto 50px auto;
+    padding: 20px 10px 10px 80px;
+    height: 150px;
+}
+
+/*///////////// 3.3 Support /////////////*/
+.support {
     width: 800px;
     text-align: center;
     margin: 0 auto;
 }
 
-.picturecallcenter {
+.picture {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -161,22 +225,60 @@ main {
     /*padding-top: 40px;*/
 }
 
-a {
-    color: #899CA0;
-    text-decoration: underline;
+.contact {
+    font-size: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    left: -450px;
+    background-color: black;
+    color: white;
+    margin-top: 15px;
 
 }
-a:hover {
-   text-decoration: none;
-}
-
-/*///////////// 3.2 Testimonial /////////////*/
-
-
-/*///////////// 3.3 Support /////////////*/
-
 
 /*///////////// 3.4 Faq /////////////*/
+.FAQ {
+    position: relative;
+    left: 90px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 50px;
+}
 
+.cursor-default {
+    cursor: default;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #899CA0;
+    color: #f5f5f5;
+    /*padding: 10px 550px 10px 10px;*/
+    height: 110px;
+    width: 500px;
+
+    padding: 15px 20px 100px 20px;
+    margin: 0;
+}
 
 /*///////////// 3.5 Footer /////////////*/
+footer {
+    font-size: 10px;
+    border: 1.8px solid;
+    background-color: black;
+    color: white;
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
